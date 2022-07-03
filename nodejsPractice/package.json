@@ -1,0 +1,17 @@
+{
+  "name": "nodejspractice",
+  "version": "1.0.0",
+  "description": "This directory contains some cool nodejs thoughts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js",
+    "server":"nodemon server.js"
+  },
+  "author": "HARSH RAJ MISHRA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
