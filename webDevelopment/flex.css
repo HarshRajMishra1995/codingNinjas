@@ -1,5 +1,38 @@
 .main-container{
-  width: 75vw;
-  height: 75vh;
-  background-color: cyan;
+ width: 75vw;
+ height: 75vh;
+ background-color: cyan;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap ;
+ justify-content:stretch;
+}
+
+.main-container div{
+  height: auto;
+  width: auto;
+  /* flex-grow: 1; */
+
+}
+
+.div-1{
+  background-color: red;
+}
+.div-2{
+  background-color: green;
+}
+.div-3{
+  background-color: blue;
+}
+.div-4{
+  background-color: yellow;
+}
+.div-5{
+  background-color: pink;
+}
+.div-6{
+  background-color: black;
+}
+.div-7{
+  background-color: grey;
 }
