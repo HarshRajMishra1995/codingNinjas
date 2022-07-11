@@ -1,5 +1,21 @@
 #div-1{
   height: 100px;
   width:100px;
+  position: absolute;
   background-color: aqua;
+  top:20%;
+  left:20%;
+  /* transform: rotate(120deg); */
+  /* transform: translate(500px,500px); */
+  /* transform: skewY(20deg); */
+  /* transition: 1s ease-in-out 1s; */
+  transition: 1s ease-in-out;
+  /* transition: 1s steps(10,end); */
+}
+
+#div-1:hover{
+  /* width: 400px;
+  height: 400px; */
+  transform: translate(400px) rotate(120deg) scale(0.5,0.5);
+  border-radius: 50%;
 }
