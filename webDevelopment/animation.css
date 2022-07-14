@@ -19,3 +19,18 @@
   transform: translate(400px) rotate(120deg) scale(0.5,0.5);
   border-radius: 50%;
 }
+
+#div-2{
+  width: 120px;
+  height: 120px;
+  background-color: lightpink;
+  position: absolute;
+  top:10%;
+  left:50%;
+  transition: 1s ease-in-out;
+}
+
+#div-2:hover{
+  transform: translate(120px) rotate(120deg);
+  border-radius: 50%;
+}
