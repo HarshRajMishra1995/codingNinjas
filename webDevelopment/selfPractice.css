@@ -1,0 +1,53 @@
+#div-1{
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  position: fixed;
+  left: 100px;
+  animation: 1s ease-in-out moveDiv  infinite alternate;
+}
+#div-2{
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  position:absolute;
+  top: 80px;
+  animation: 1s ease-in-out moveDiv infinite alternate;
+}
+#div-3{
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  position:relative;
+  top: 80px;
+  left:20px;
+  animation: 1s ease-in-out moveDiv infinite alternate;
+}
+#div-4{
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  position:sticky;
+  top: 80px;
+  left:20px;
+  animation: 1s ease-in-out moveDiv shiftDiv infinite alternate;
+}
+
+@keyframes moveDiv{
+  from{
+
+  }
+  to{
+    transform: translateX(900px)   translateY(200px);
+    border-radius: 50%;
+  }
+}
+@keyframes shiftDiv{
+  from{
+
+  }
+  to{
+    transform: translate(200px,-500px) rotate(120deg) rotate(200deg);
+    border-radius: 50%;
+  }
+}
